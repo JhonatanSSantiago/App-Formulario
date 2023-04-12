@@ -52,7 +52,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:text="Feminino"
             android:id="@+id/feminino"/>
 
@@ -60,7 +60,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:text="Masculino"
             android:id="@+id/masculino"/>
 
@@ -77,30 +77,37 @@
     <CheckBox android:id="@+id/checkbox_sertanejo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="5dp"
         android:text="Sertanejo" />
 
     <CheckBox android:id="@+id/checkbox_rock"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Rock"
-        android:onClick="onCheckboxClicked"/>
+        android:layout_margin="5dp" />
 
     <CheckBox android:id="@+id/checkbox_pagode"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Pagode"
-        android:onClick="onCheckboxClicked"/>
+        android:layout_margin="5dp"/>
 
     <CheckBox android:id="@+id/checkbox_forro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Forró"
-        android:onClick="onCheckboxClicked"/>
+        android:layout_margin="5dp"/>
 
     <CheckBox android:id="@+id/checkbox_outro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Outro"
-        android:onClick="onCheckboxClicked"/>
+        android:layout_margin="5dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:text="Enviar"/>
 
 </LinearLayout>
