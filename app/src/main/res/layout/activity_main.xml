@@ -23,7 +23,7 @@
         android:ems="10"
         android:layout_margin="10dp"
         android:inputType="textPersonName"
-        android:text="Nome" />
+        android:hint="Nome" />
 
     <EditText
         android:id="@+id/idade"
@@ -32,7 +32,7 @@
         android:ems="10"
         android:layout_margin="10dp"
         android:inputType="number"
-        android:text="Idade" />
+        android:hint="Idade" />
 
     <TextView
         android:id="@+id/textView3"
